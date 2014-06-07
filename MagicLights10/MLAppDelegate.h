@@ -1,8 +1,8 @@
 //
 //  MLAppDelegate.h
-//  MagicLights10
+//  MagicLights
 //
-//  Created by janakiraman gopinath on 6/7/14.
+//  Created by janakiraman gopinath on 5/7/14.
 //  Copyright (c) 2014 gopi. All rights reserved.
 //
 

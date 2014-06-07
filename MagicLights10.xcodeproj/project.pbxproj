@@ -11,16 +11,53 @@
 		FF95E836194353730076D6D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E835194353730076D6D8 /* CoreGraphics.framework */; };
 		FF95E838194353730076D6D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E837194353730076D6D8 /* UIKit.framework */; };
 		FF95E83E194353730076D6D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF95E83C194353730076D6D8 /* InfoPlist.strings */; };
-		FF95E840194353730076D6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E83F194353730076D6D8 /* main.m */; };
-		FF95E844194353730076D6D8 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E843194353730076D6D8 /* MLAppDelegate.m */; };
-		FF95E847194353730076D6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95E845194353730076D6D8 /* Main.storyboard */; };
-		FF95E84A194353730076D6D8 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E849194353730076D6D8 /* MLViewController.m */; };
 		FF95E84C194353730076D6D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF95E84B194353730076D6D8 /* Images.xcassets */; };
 		FF95E853194353730076D6D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E852194353730076D6D8 /* XCTest.framework */; };
 		FF95E854194353730076D6D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E833194353730076D6D8 /* Foundation.framework */; };
 		FF95E855194353730076D6D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E837194353730076D6D8 /* UIKit.framework */; };
 		FF95E85D194353730076D6D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF95E85B194353730076D6D8 /* InfoPlist.strings */; };
 		FF95E85F194353730076D6D8 /* MagicLights10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E85E194353730076D6D8 /* MagicLights10Tests.m */; };
+		FF95E869194353990076D6D8 /* Framework in Resources */ = {isa = PBXBuildFile; fileRef = FF95E868194353990076D6D8 /* Framework */; };
+		FF95E877194353C90076D6D8 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF95E86B194353C90076D6D8 /* AcousticModelEnglish.bundle */; };
+		FF95E878194353C90076D6D8 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF95E86C194353C90076D6D8 /* AcousticModelSpanish.bundle */; };
+		FF95E879194353C90076D6D8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E86D194353C90076D6D8 /* Icon.png */; };
+		FF95E87A194353C90076D6D8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E86E194353C90076D6D8 /* Icon@2x.png */; };
+		FF95E87B194353C90076D6D8 /* Dancing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF95E86F194353C90076D6D8 /* Dancing.jpg */; };
+		FF95E87C194353C90076D6D8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E870194353C90076D6D8 /* Icon-72.png */; };
+		FF95E87D194353C90076D6D8 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E871194353C90076D6D8 /* Icon-72@2x.png */; };
+		FF95E87E194353C90076D6D8 /* boxing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF95E872194353C90076D6D8 /* boxing.jpeg */; };
+		FF95E87F194353C90076D6D8 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E873194353C90076D6D8 /* microphone.png */; };
+		FF95E880194353C90076D6D8 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E874194353C90076D6D8 /* play.png */; };
+		FF95E881194353C90076D6D8 /* press_smartbridge.png in Resources */ = {isa = PBXBuildFile; fileRef = FF95E875194353C90076D6D8 /* press_smartbridge.png */; };
+		FF95E882194353C90076D6D8 /* camera.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF95E876194353C90076D6D8 /* camera.jpeg */; };
+		FF95E8B0194355A40076D6D8 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8A7194355A40076D6D8 /* DDAbstractDatabaseLogger.m */; };
+		FF95E8B1194355A40076D6D8 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8A9194355A40076D6D8 /* DDASLLogger.m */; };
+		FF95E8B2194355A40076D6D8 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8AB194355A40076D6D8 /* DDFileLogger.m */; };
+		FF95E8B3194355A40076D6D8 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8AD194355A40076D6D8 /* DDLog.m */; };
+		FF95E8B4194355A40076D6D8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8AF194355A40076D6D8 /* DDTTYLogger.m */; };
+		FF95E8D1194355BE0076D6D8 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8B6194355BE0076D6D8 /* MLAppDelegate.m */; };
+		FF95E8D2194355BE0076D6D8 /* MLLights.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8B8194355BE0076D6D8 /* MLLights.m */; };
+		FF95E8D3194355BE0076D6D8 /* MLConfigurationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8BA194355BE0076D6D8 /* MLConfigurationTableViewController.m */; };
+		FF95E8D4194355BE0076D6D8 /* MLColorDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8BC194355BE0076D6D8 /* MLColorDetectionViewController.m */; };
+		FF95E8D5194355BE0076D6D8 /* MLDanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8BE194355BE0076D6D8 /* MLDanceViewController.m */; };
+		FF95E8D6194355BE0076D6D8 /* MLMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8C0194355BE0076D6D8 /* MLMusicViewController.m */; };
+		FF95E8D7194355BE0076D6D8 /* MLFunTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8C2194355BE0076D6D8 /* MLFunTableViewController.m */; };
+		FF95E8D8194355BE0076D6D8 /* MLBoxingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8C4194355BE0076D6D8 /* MLBoxingViewController.m */; };
+		FF95E8D9194355BE0076D6D8 /* MLEffectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8C6194355BE0076D6D8 /* MLEffectsTableViewController.m */; };
+		FF95E8DA194355BE0076D6D8 /* MLLightsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8C8194355BE0076D6D8 /* MLLightsTableViewController.m */; };
+		FF95E8DB194355BE0076D6D8 /* MLMainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8CA194355BE0076D6D8 /* MLMainMenuTableViewController.m */; };
+		FF95E8DC194355BE0076D6D8 /* MLAudioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8CC194355BE0076D6D8 /* MLAudioTableViewController.m */; };
+		FF95E8DD194355BE0076D6D8 /* MLBridgesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8CE194355BE0076D6D8 /* MLBridgesTableViewController.m */; };
+		FF95E8DE194355BE0076D6D8 /* MLVoiceCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8D0194355BE0076D6D8 /* MLVoiceCommandViewController.m */; };
+		FF95E8E0194355E10076D6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8DF194355E10076D6D8 /* main.m */; };
+		FF95E8E31943561B0076D6D8 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E8E11943561B0076D6D8 /* OpenEars.framework */; };
+		FF95E8E41943561B0076D6D8 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E8E21943561B0076D6D8 /* Slt.framework */; };
+		FF95E8E61943565C0076D6D8 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E8E51943565C0076D6D8 /* HueSDK_iOS.framework */; };
+		FF95E8E9194356BF0076D6D8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95E8E7194356BF0076D6D8 /* Main_iPhone.storyboard */; };
+		FF95E8EA194356BF0076D6D8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95E8E8194356BF0076D6D8 /* Main_iPad.storyboard */; };
+		FF95E8EC194357A60076D6D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E8EB194357A60076D6D8 /* AudioToolbox.framework */; };
+		FF95E8EE194357B80076D6D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95E8ED194357B80076D6D8 /* AVFoundation.framework */; };
+		FF95E8F119435CE60076D6D8 /* MLColorScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95E8F019435CE60076D6D8 /* MLColorScannerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +77,74 @@
 		FF95E837194353730076D6D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF95E83B194353730076D6D8 /* MagicLights10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicLights10-Info.plist"; sourceTree = "<group>"; };
 		FF95E83D194353730076D6D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FF95E83F194353730076D6D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF95E841194353730076D6D8 /* MagicLights10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicLights10-Prefix.pch"; sourceTree = "<group>"; };
-		FF95E842194353730076D6D8 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
-		FF95E843194353730076D6D8 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
-		FF95E846194353730076D6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF95E848194353730076D6D8 /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
-		FF95E849194353730076D6D8 /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
 		FF95E84B194353730076D6D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF95E851194353730076D6D8 /* MagicLights10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicLights10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF95E852194353730076D6D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FF95E85A194353730076D6D8 /* MagicLights10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicLights10Tests-Info.plist"; sourceTree = "<group>"; };
 		FF95E85C194353730076D6D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF95E85E194353730076D6D8 /* MagicLights10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicLights10Tests.m; sourceTree = "<group>"; };
+		FF95E868194353990076D6D8 /* Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Framework; sourceTree = "<group>"; };
+		FF95E86B194353C90076D6D8 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		FF95E86C194353C90076D6D8 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		FF95E86D194353C90076D6D8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FF95E86E194353C90076D6D8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FF95E86F194353C90076D6D8 /* Dancing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dancing.jpg; sourceTree = "<group>"; };
+		FF95E870194353C90076D6D8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FF95E871194353C90076D6D8 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		FF95E872194353C90076D6D8 /* boxing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxing.jpeg; sourceTree = "<group>"; };
+		FF95E873194353C90076D6D8 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		FF95E874194353C90076D6D8 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		FF95E875194353C90076D6D8 /* press_smartbridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = press_smartbridge.png; sourceTree = "<group>"; };
+		FF95E876194353C90076D6D8 /* camera.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera.jpeg; sourceTree = "<group>"; };
+		FF95E8A6194355A40076D6D8 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		FF95E8A7194355A40076D6D8 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		FF95E8A8194355A40076D6D8 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		FF95E8A9194355A40076D6D8 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		FF95E8AA194355A40076D6D8 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		FF95E8AB194355A40076D6D8 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		FF95E8AC194355A40076D6D8 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		FF95E8AD194355A40076D6D8 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		FF95E8AE194355A40076D6D8 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		FF95E8AF194355A40076D6D8 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		FF95E8B5194355BE0076D6D8 /* MLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		FF95E8B6194355BE0076D6D8 /* MLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		FF95E8B7194355BE0076D6D8 /* MLLights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLights.h; sourceTree = "<group>"; };
+		FF95E8B8194355BE0076D6D8 /* MLLights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLights.m; sourceTree = "<group>"; };
+		FF95E8B9194355BE0076D6D8 /* MLConfigurationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLConfigurationTableViewController.h; sourceTree = "<group>"; };
+		FF95E8BA194355BE0076D6D8 /* MLConfigurationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLConfigurationTableViewController.m; sourceTree = "<group>"; };
+		FF95E8BB194355BE0076D6D8 /* MLColorDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLColorDetectionViewController.h; sourceTree = "<group>"; };
+		FF95E8BC194355BE0076D6D8 /* MLColorDetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLColorDetectionViewController.m; sourceTree = "<group>"; };
+		FF95E8BD194355BE0076D6D8 /* MLDanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDanceViewController.h; sourceTree = "<group>"; };
+		FF95E8BE194355BE0076D6D8 /* MLDanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDanceViewController.m; sourceTree = "<group>"; };
+		FF95E8BF194355BE0076D6D8 /* MLMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMusicViewController.h; sourceTree = "<group>"; };
+		FF95E8C0194355BE0076D6D8 /* MLMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMusicViewController.m; sourceTree = "<group>"; };
+		FF95E8C1194355BE0076D6D8 /* MLFunTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFunTableViewController.h; sourceTree = "<group>"; };
+		FF95E8C2194355BE0076D6D8 /* MLFunTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFunTableViewController.m; sourceTree = "<group>"; };
+		FF95E8C3194355BE0076D6D8 /* MLBoxingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBoxingViewController.h; sourceTree = "<group>"; };
+		FF95E8C4194355BE0076D6D8 /* MLBoxingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBoxingViewController.m; sourceTree = "<group>"; };
+		FF95E8C5194355BE0076D6D8 /* MLEffectsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLEffectsTableViewController.h; sourceTree = "<group>"; };
+		FF95E8C6194355BE0076D6D8 /* MLEffectsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLEffectsTableViewController.m; sourceTree = "<group>"; };
+		FF95E8C7194355BE0076D6D8 /* MLLightsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLightsTableViewController.h; sourceTree = "<group>"; };
+		FF95E8C8194355BE0076D6D8 /* MLLightsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLightsTableViewController.m; sourceTree = "<group>"; };
+		FF95E8C9194355BE0076D6D8 /* MLMainMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMainMenuTableViewController.h; sourceTree = "<group>"; };
+		FF95E8CA194355BE0076D6D8 /* MLMainMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMainMenuTableViewController.m; sourceTree = "<group>"; };
+		FF95E8CB194355BE0076D6D8 /* MLAudioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAudioTableViewController.h; sourceTree = "<group>"; };
+		FF95E8CC194355BE0076D6D8 /* MLAudioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAudioTableViewController.m; sourceTree = "<group>"; };
+		FF95E8CD194355BE0076D6D8 /* MLBridgesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBridgesTableViewController.h; sourceTree = "<group>"; };
+		FF95E8CE194355BE0076D6D8 /* MLBridgesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBridgesTableViewController.m; sourceTree = "<group>"; };
+		FF95E8CF194355BE0076D6D8 /* MLVoiceCommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVoiceCommandViewController.h; sourceTree = "<group>"; };
+		FF95E8D0194355BE0076D6D8 /* MLVoiceCommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLVoiceCommandViewController.m; sourceTree = "<group>"; };
+		FF95E8DF194355E10076D6D8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF95E8E11943561B0076D6D8 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenEars.framework; path = ../OpenEarsDistribution/Framework/OpenEars.framework; sourceTree = "<group>"; };
+		FF95E8E21943561B0076D6D8 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Slt.framework; path = ../OpenEarsDistribution/Framework/Slt.framework; sourceTree = "<group>"; };
+		FF95E8E51943565C0076D6D8 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HueSDK_iOS.framework; path = "../PhilipsHueSDK-iOS-OSX-master/HueSDK_iOS.framework"; sourceTree = "<group>"; };
+		FF95E8E7194356BF0076D6D8 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FF95E8E8194356BF0076D6D8 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		FF95E8EB194357A60076D6D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FF95E8ED194357B80076D6D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF95E8EF19435CE60076D6D8 /* MLColorScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLColorScannerViewController.h; sourceTree = "<group>"; };
+		FF95E8F019435CE60076D6D8 /* MLColorScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLColorScannerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +152,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF95E8EE194357B80076D6D8 /* AVFoundation.framework in Frameworks */,
+				FF95E8EC194357A60076D6D8 /* AudioToolbox.framework in Frameworks */,
+				FF95E8E61943565C0076D6D8 /* HueSDK_iOS.framework in Frameworks */,
+				FF95E8E31943561B0076D6D8 /* OpenEars.framework in Frameworks */,
+				FF95E8E41943561B0076D6D8 /* Slt.framework in Frameworks */,
 				FF95E836194353730076D6D8 /* CoreGraphics.framework in Frameworks */,
 				FF95E838194353730076D6D8 /* UIKit.framework in Frameworks */,
 				FF95E834194353730076D6D8 /* Foundation.framework in Frameworks */,
@@ -101,6 +198,11 @@
 		FF95E832194353730076D6D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF95E8ED194357B80076D6D8 /* AVFoundation.framework */,
+				FF95E8EB194357A60076D6D8 /* AudioToolbox.framework */,
+				FF95E8E51943565C0076D6D8 /* HueSDK_iOS.framework */,
+				FF95E8E11943561B0076D6D8 /* OpenEars.framework */,
+				FF95E8E21943561B0076D6D8 /* Slt.framework */,
 				FF95E833194353730076D6D8 /* Foundation.framework */,
 				FF95E835194353730076D6D8 /* CoreGraphics.framework */,
 				FF95E837194353730076D6D8 /* UIKit.framework */,
@@ -112,11 +214,12 @@
 		FF95E839194353730076D6D8 /* MagicLights10 */ = {
 			isa = PBXGroup;
 			children = (
-				FF95E842194353730076D6D8 /* MLAppDelegate.h */,
-				FF95E843194353730076D6D8 /* MLAppDelegate.m */,
-				FF95E845194353730076D6D8 /* Main.storyboard */,
-				FF95E848194353730076D6D8 /* MLViewController.h */,
-				FF95E849194353730076D6D8 /* MLViewController.m */,
+				FF95E8E7194356BF0076D6D8 /* Main_iPhone.storyboard */,
+				FF95E8E8194356BF0076D6D8 /* Main_iPad.storyboard */,
+				FF95E8931943546D0076D6D8 /* Classes */,
+				FF95E883194353DD0076D6D8 /* LumbarJack */,
+				FF95E86A194353C00076D6D8 /* Images */,
+				FF95E868194353990076D6D8 /* Framework */,
 				FF95E84B194353730076D6D8 /* Images.xcassets */,
 				FF95E83A194353730076D6D8 /* Supporting Files */,
 			);
@@ -126,9 +229,9 @@
 		FF95E83A194353730076D6D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF95E8DF194355E10076D6D8 /* main.m */,
 				FF95E83B194353730076D6D8 /* MagicLights10-Info.plist */,
 				FF95E83C194353730076D6D8 /* InfoPlist.strings */,
-				FF95E83F194353730076D6D8 /* main.m */,
 				FF95E841194353730076D6D8 /* MagicLights10-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -150,6 +253,79 @@
 				FF95E85B194353730076D6D8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF95E86A194353C00076D6D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF95E86B194353C90076D6D8 /* AcousticModelEnglish.bundle */,
+				FF95E86C194353C90076D6D8 /* AcousticModelSpanish.bundle */,
+				FF95E86D194353C90076D6D8 /* Icon.png */,
+				FF95E86E194353C90076D6D8 /* Icon@2x.png */,
+				FF95E86F194353C90076D6D8 /* Dancing.jpg */,
+				FF95E870194353C90076D6D8 /* Icon-72.png */,
+				FF95E871194353C90076D6D8 /* Icon-72@2x.png */,
+				FF95E872194353C90076D6D8 /* boxing.jpeg */,
+				FF95E873194353C90076D6D8 /* microphone.png */,
+				FF95E874194353C90076D6D8 /* play.png */,
+				FF95E875194353C90076D6D8 /* press_smartbridge.png */,
+				FF95E876194353C90076D6D8 /* camera.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FF95E883194353DD0076D6D8 /* LumbarJack */ = {
+			isa = PBXGroup;
+			children = (
+				FF95E8A6194355A40076D6D8 /* DDAbstractDatabaseLogger.h */,
+				FF95E8A7194355A40076D6D8 /* DDAbstractDatabaseLogger.m */,
+				FF95E8A8194355A40076D6D8 /* DDASLLogger.h */,
+				FF95E8A9194355A40076D6D8 /* DDASLLogger.m */,
+				FF95E8AA194355A40076D6D8 /* DDFileLogger.h */,
+				FF95E8AB194355A40076D6D8 /* DDFileLogger.m */,
+				FF95E8AC194355A40076D6D8 /* DDLog.h */,
+				FF95E8AD194355A40076D6D8 /* DDLog.m */,
+				FF95E8AE194355A40076D6D8 /* DDTTYLogger.h */,
+				FF95E8AF194355A40076D6D8 /* DDTTYLogger.m */,
+			);
+			name = LumbarJack;
+			sourceTree = "<group>";
+		};
+		FF95E8931943546D0076D6D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF95E8EF19435CE60076D6D8 /* MLColorScannerViewController.h */,
+				FF95E8F019435CE60076D6D8 /* MLColorScannerViewController.m */,
+				FF95E8B5194355BE0076D6D8 /* MLAppDelegate.h */,
+				FF95E8B6194355BE0076D6D8 /* MLAppDelegate.m */,
+				FF95E8B7194355BE0076D6D8 /* MLLights.h */,
+				FF95E8B8194355BE0076D6D8 /* MLLights.m */,
+				FF95E8B9194355BE0076D6D8 /* MLConfigurationTableViewController.h */,
+				FF95E8BA194355BE0076D6D8 /* MLConfigurationTableViewController.m */,
+				FF95E8BB194355BE0076D6D8 /* MLColorDetectionViewController.h */,
+				FF95E8BC194355BE0076D6D8 /* MLColorDetectionViewController.m */,
+				FF95E8BD194355BE0076D6D8 /* MLDanceViewController.h */,
+				FF95E8BE194355BE0076D6D8 /* MLDanceViewController.m */,
+				FF95E8BF194355BE0076D6D8 /* MLMusicViewController.h */,
+				FF95E8C0194355BE0076D6D8 /* MLMusicViewController.m */,
+				FF95E8C1194355BE0076D6D8 /* MLFunTableViewController.h */,
+				FF95E8C2194355BE0076D6D8 /* MLFunTableViewController.m */,
+				FF95E8C3194355BE0076D6D8 /* MLBoxingViewController.h */,
+				FF95E8C4194355BE0076D6D8 /* MLBoxingViewController.m */,
+				FF95E8C5194355BE0076D6D8 /* MLEffectsTableViewController.h */,
+				FF95E8C6194355BE0076D6D8 /* MLEffectsTableViewController.m */,
+				FF95E8C7194355BE0076D6D8 /* MLLightsTableViewController.h */,
+				FF95E8C8194355BE0076D6D8 /* MLLightsTableViewController.m */,
+				FF95E8C9194355BE0076D6D8 /* MLMainMenuTableViewController.h */,
+				FF95E8CA194355BE0076D6D8 /* MLMainMenuTableViewController.m */,
+				FF95E8CB194355BE0076D6D8 /* MLAudioTableViewController.h */,
+				FF95E8CC194355BE0076D6D8 /* MLAudioTableViewController.m */,
+				FF95E8CD194355BE0076D6D8 /* MLBridgesTableViewController.h */,
+				FF95E8CE194355BE0076D6D8 /* MLBridgesTableViewController.m */,
+				FF95E8CF194355BE0076D6D8 /* MLVoiceCommandViewController.h */,
+				FF95E8D0194355BE0076D6D8 /* MLVoiceCommandViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +406,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF95E84C194353730076D6D8 /* Images.xcassets in Resources */,
+				FF95E87F194353C90076D6D8 /* microphone.png in Resources */,
+				FF95E87C194353C90076D6D8 /* Icon-72.png in Resources */,
+				FF95E881194353C90076D6D8 /* press_smartbridge.png in Resources */,
+				FF95E8EA194356BF0076D6D8 /* Main_iPad.storyboard in Resources */,
+				FF95E8E9194356BF0076D6D8 /* Main_iPhone.storyboard in Resources */,
+				FF95E87A194353C90076D6D8 /* Icon@2x.png in Resources */,
+				FF95E878194353C90076D6D8 /* AcousticModelSpanish.bundle in Resources */,
 				FF95E83E194353730076D6D8 /* InfoPlist.strings in Resources */,
-				FF95E847194353730076D6D8 /* Main.storyboard in Resources */,
+				FF95E882194353C90076D6D8 /* camera.jpeg in Resources */,
+				FF95E880194353C90076D6D8 /* play.png in Resources */,
+				FF95E87B194353C90076D6D8 /* Dancing.jpg in Resources */,
+				FF95E877194353C90076D6D8 /* AcousticModelEnglish.bundle in Resources */,
+				FF95E879194353C90076D6D8 /* Icon.png in Resources */,
+				FF95E869194353990076D6D8 /* Framework in Resources */,
+				FF95E87E194353C90076D6D8 /* boxing.jpeg in Resources */,
+				FF95E87D194353C90076D6D8 /* Icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +440,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF95E840194353730076D6D8 /* main.m in Sources */,
-				FF95E84A194353730076D6D8 /* MLViewController.m in Sources */,
-				FF95E844194353730076D6D8 /* MLAppDelegate.m in Sources */,
+				FF95E8D8194355BE0076D6D8 /* MLBoxingViewController.m in Sources */,
+				FF95E8B3194355A40076D6D8 /* DDLog.m in Sources */,
+				FF95E8D3194355BE0076D6D8 /* MLConfigurationTableViewController.m in Sources */,
+				FF95E8DA194355BE0076D6D8 /* MLLightsTableViewController.m in Sources */,
+				FF95E8D5194355BE0076D6D8 /* MLDanceViewController.m in Sources */,
+				FF95E8DC194355BE0076D6D8 /* MLAudioTableViewController.m in Sources */,
+				FF95E8F119435CE60076D6D8 /* MLColorScannerViewController.m in Sources */,
+				FF95E8DE194355BE0076D6D8 /* MLVoiceCommandViewController.m in Sources */,
+				FF95E8DD194355BE0076D6D8 /* MLBridgesTableViewController.m in Sources */,
+				FF95E8D6194355BE0076D6D8 /* MLMusicViewController.m in Sources */,
+				FF95E8D2194355BE0076D6D8 /* MLLights.m in Sources */,
+				FF95E8E0194355E10076D6D8 /* main.m in Sources */,
+				FF95E8B0194355A40076D6D8 /* DDAbstractDatabaseLogger.m in Sources */,
+				FF95E8D1194355BE0076D6D8 /* MLAppDelegate.m in Sources */,
+				FF95E8B2194355A40076D6D8 /* DDFileLogger.m in Sources */,
+				FF95E8D4194355BE0076D6D8 /* MLColorDetectionViewController.m in Sources */,
+				FF95E8D7194355BE0076D6D8 /* MLFunTableViewController.m in Sources */,
+				FF95E8B4194355A40076D6D8 /* DDTTYLogger.m in Sources */,
+				FF95E8B1194355A40076D6D8 /* DDASLLogger.m in Sources */,
+				FF95E8DB194355BE0076D6D8 /* MLMainMenuTableViewController.m in Sources */,
+				FF95E8D9194355BE0076D6D8 /* MLEffectsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +489,6 @@
 				FF95E83D194353730076D6D8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FF95E845194353730076D6D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF95E846194353730076D6D8 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FF95E85B194353730076D6D8 /* InfoPlist.strings */ = {
@@ -377,9 +577,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/GOPI/Development/OpenEarsDistribution/Framework,
+					"/Users/GOPI/Development/PhilipsHueSDK-iOS-OSX-master",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagicLights10/MagicLights10-Prefix.pch";
 				INFOPLIST_FILE = "MagicLights10/MagicLights10-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +596,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/GOPI/Development/OpenEarsDistribution/Framework,
+					"/Users/GOPI/Development/PhilipsHueSDK-iOS-OSX-master",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagicLights10/MagicLights10-Prefix.pch";
 				INFOPLIST_FILE = "MagicLights10/MagicLights10-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
